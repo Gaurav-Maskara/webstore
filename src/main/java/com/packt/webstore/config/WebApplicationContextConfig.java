@@ -45,7 +45,7 @@ import com.packt.webstore.validator.UnitsInStockValidator;
 @ComponentScan("com.packt.webstore")
 public class WebApplicationContextConfig extends WebMvcConfigurerAdapter {
 
-     @Override
+    @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
         configurer.enable();
     }
